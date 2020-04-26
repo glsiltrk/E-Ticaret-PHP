@@ -1,2 +1,2 @@
 # E-Ticaret-PHP
-Php tabalı e-ticaret platformu
+Php tabanlı e-ticaret platformu
