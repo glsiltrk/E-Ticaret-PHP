@@ -38,7 +38,7 @@ include"Ust.php";
 
                     <form class="form-horizontal form-label-left" novalidate>
 
-                      <p>For alternative validation library <code>parsleyJS</code> check out in the <a href="form.html">form page</a>
+                      <p>
                       </p>
                       <span class="section">Personal Info</span>
 
