@@ -6,7 +6,7 @@ include"Ust.php";
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Form Validation</h3>
+                <h3>E-Ticaret Yönetim Paneli</h3>
               </div>
 
              
