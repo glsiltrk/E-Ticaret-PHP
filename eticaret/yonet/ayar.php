@@ -38,7 +38,7 @@ include"Ust.php";
 
                     <form class="form-horizontal form-label-left" novalidate>
 
-                      <p>
+                      <p>Web Ayarlarınızı düzenleyebileceğiniz sayfadır.
                       </p>
                       <span class="section">Personal Info</span>
 
