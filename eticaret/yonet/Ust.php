@@ -50,8 +50,9 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                    <li><a><i class="fa fa-home"></i> Anasayfa </a></li>
-
+                    <li><a href="./"><i class="fa fa-home"></i> Anasayfa </a></li>
+                     <li><a href="ayar.php"><i class="fa fa-cogs"></i> Ayarlar </a></li>
+                    
 
                   <!-- <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
