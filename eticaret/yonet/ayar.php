@@ -64,6 +64,67 @@ include"Ust.php";
                         </div>
                       </div>
 
+
+                        <span class="section">Sosyal Medya Ayarları</span>
+
+                      <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_facebook">Facebook
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_facebook" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_facebook" placeholder="Buraya facebook adresinizi giriniz." required="required" type="text">
+                        </div>
+                      </div>
+                         <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_twitter">Twitter
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_twitter" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_twitter" placeholder="Buraya twitter adresinizi giriniz." required="required" type="text">
+                        </div>
+                      </div>
+                         <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_instagram">Instagram 
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_instagram" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_instagram" placeholder="Buraya instagram adresinizi giriniz." required="required" type="text">
+                        </div>
+                      </div>
+                       <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_youtube">Youtube 
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_youtube" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_youtube" placeholder="Buraya youtube adresinizi giriniz." required="required" type="text">
+                        </div>
+                      </div>
+
+                       <span class="section">Mail Ayarları</span>
+
+                      <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_baslik">Mail server <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_baslik" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_baslik" placeholder="Buraya sitenin başlığını giriniz." required="required" type="text">
+                        </div>
+                      </div>
+                         <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_description">Mail Port <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_description" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_description" placeholder="Buraya sitenin açıklamasını giriniz." required="required" type="text">
+                        </div>
+                      </div>
+                         <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_keywords">Mail Adresi<span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_keywords" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_keywords" placeholder="Buraya sitenin anahtar kelimelerini giriniz." required="required" type="text">
+                        </div>
+                      </div>
+                        <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_keywords">Mail Adresi Şifresi<span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_keywords" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_keywords" placeholder="Buraya sitenin anahtar kelimelerini giriniz." required="required" type="text">
+                        </div>
+                      </div>
+
+
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 col-md-offset-3">
