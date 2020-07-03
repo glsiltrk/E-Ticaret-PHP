@@ -40,13 +40,27 @@ include"Ust.php";
 
                       <p>Web Ayarlarınızı düzenleyebileceğiniz sayfadır.
                       </p>
-                      <span class="section">Personal Info</span>
+                      <span class="section">Genel Ayarlar</span>
 
                       <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_baslik">Sitenin Başlığı <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input id="ayar_baslik" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_baslik" placeholder="Buraya sitenin başlığını giriniz." required="required" type="text">
+                        </div>
+                      </div>
+                         <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_description">Sitenin Açıklaması <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_description" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_description" placeholder="Buraya sitenin açıklamasını giriniz." required="required" type="text">
+                        </div>
+                      </div>
+                         <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_keywords">Anahtar Kelimeler <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="ayar_keywords" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_keywords" placeholder="Buraya sitenin anahtar kelimelerini giriniz." required="required" type="text">
                         </div>
                       </div>
 
