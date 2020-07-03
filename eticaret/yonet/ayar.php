@@ -43,10 +43,10 @@ include"Ust.php";
                       <span class="section">Personal Info</span>
 
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Sitenin Başlığı <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_baslik">Sitenin Başlığı <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="name" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="Buraya sitenin başlığını giriniz." required="required" type="text">
+                          <input id="ayar_baslik" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_baslik" placeholder="Buraya sitenin başlığını giriniz." required="required" type="text">
                         </div>
                       </div>
 
