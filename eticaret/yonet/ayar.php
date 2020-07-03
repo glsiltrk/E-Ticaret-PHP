@@ -37,7 +37,7 @@ include "Ust.php";
                   </div>
                   <div class="x_content">
 
-                    <form class="form-horizontal form-label-left" novalidate>
+                    <form action= "ayar_guncelle.php"method="POST" class="form-horizontal form-label-left" novalidate>
 
                       <p>Web Ayarlarınızı düzenleyebileceğiniz sayfadır.
                       </p>
