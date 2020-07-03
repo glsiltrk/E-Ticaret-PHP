@@ -17,7 +17,8 @@
   		ayar_mkadi:=ayar_mkadi,
   		ayar_msifre:=ayar_msifre
   		WHERE ayar_id=1");
-  	$guncelle->execute(
+
+  $Durum=$guncelle->execute(
 array(
      'ayar_baslik'=>$_POST['ayar_baslik'],
      'ayar_description'=>$_POST['ayar_description'],
@@ -29,10 +30,12 @@ array(
      'ayar_msunucu'=>$_POST['ayar_msunucu'], 
      'ayar_mport'=>$_POST['ayar_mport'],
      'ayar_mkadi'=>$_POST['ayar_mkadi'],
-     'ayar_msifre'=>$_POST['ayar_msifre'],
+     'ayar_msifre'=>$_POST['ayar_msifre']
        
 
 )
   	);
+  	//print_r($guncelle->errorInfo());
+  header("location:ayar.php?Durum=$Durum");
   }
   ?>
