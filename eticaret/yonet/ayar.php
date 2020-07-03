@@ -68,13 +68,13 @@ include"Ust.php";
                         <span class="section">Sosyal Medya Ayarları</span>
 
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_facebook">Facebook
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_facebook">Facebook</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input id="ayar_facebook" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_facebook" placeholder="Buraya facebook adresinizi giriniz." required="required" type="text">
                         </div>
                       </div>
                          <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_twitter">Twitter
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_twitter">Twitter</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input id="ayar_twitter" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_twitter" placeholder="Buraya twitter adresinizi giriniz." required="required" type="text">
                         </div>
@@ -87,7 +87,7 @@ include"Ust.php";
                         </div>
                       </div>
                        <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_youtube">Youtube 
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_youtube">Youtube </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <input id="ayar_youtube" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_youtube" placeholder="Buraya youtube adresinizi giriniz." required="required" type="text">
                         </div>
