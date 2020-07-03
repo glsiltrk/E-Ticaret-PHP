@@ -54,14 +54,14 @@ include "Ust.php";
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_description">Sitenin Açıklaması <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_description" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_description" placeholder="Buraya sitenin açıklamasını giriniz." required="required" type="text">
+                          <input id="ayar_description" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_description"value="<?php echo $Ayar['ayar_description'] ?>" placeholder="Buraya sitenin açıklamasını giriniz." required="required" type="text">
                         </div>
                       </div>
                          <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_keywords">Anahtar Kelimeler <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_keywords" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_keywords" placeholder="Buraya sitenin anahtar kelimelerini giriniz." required="required" type="text">
+                          <input id="ayar_keywords" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_keywords" value="<?php echo $Ayar['ayar_keywords'] ?>"placeholder="Buraya sitenin anahtar kelimelerini giriniz." required="required" type="text">
                         </div>
                       </div>
 
@@ -71,26 +71,26 @@ include "Ust.php";
                       <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_facebook">Facebook</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_facebook" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_facebook" placeholder="Buraya facebook adresinizi giriniz."  type="text">
+                          <input id="ayar_facebook" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_facebook" value="<?php echo $Ayar['ayar_facebook'] ?>" placeholder="Buraya facebook adresinizi giriniz."  type="text">
                         </div>
                       </div>
                          <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_twitter">Twitter</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_twitter" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_twitter" placeholder="Buraya twitter adresinizi giriniz."  type="text">
+                          <input id="ayar_twitter" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_twitter"value="<?php echo $Ayar['ayar_twitter'] ?>" placeholder="Buraya twitter adresinizi giriniz."  type="text">
                         </div>
                       </div>
                          <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_instagram">Instagram 
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_instagram" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_instagram" placeholder="Buraya instagram adresinizi giriniz." type="text">
+                          <input id="ayar_instagram" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_instagram"value="<?php echo $Ayar['ayar_instagram'] ?>" placeholder="Buraya instagram adresinizi giriniz." type="text">
                         </div>
                       </div>
                        <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_youtube">Youtube </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_youtube" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_youtube" placeholder="Buraya youtube adresinizi giriniz."  type="text">
+                          <input id="ayar_youtube" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_youtube" value="<?php echo $Ayar['ayar_youtube'] ?>"placeholder="Buraya youtube adresinizi giriniz."  type="text">
                         </div>
                       </div>
 
@@ -100,28 +100,28 @@ include "Ust.php";
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_msunucu">Mail sunucu <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_msunucu" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_msunucu" placeholder="Buraya mail sunucu adresini giriniz." required="required" type="text">
+                          <input id="ayar_msunucu" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_msunucu" value="<?php echo $Ayar['ayar_msunucu'] ?>"placeholder="Buraya mail sunucu adresini giriniz." required="required" type="text">
                         </div>
                       </div>
                          <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_mport">Mail Port <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_mport" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_mport" placeholder="Buraya Portu giriniz." required="required" type="text">
+                          <input id="ayar_mport" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_mport" value="<?php echo $Ayar['ayar_mport'] ?>"placeholder="Buraya Portu giriniz." required="required" type="text">
                         </div>
                       </div>
                          <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_mkadi">Mail Adresi<span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_mkadi" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_mkadi" placeholder="Buraya mail adresinizi giriniz." required="required" type="text">
+                          <input id="ayar_mkadi" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_mkadi"value="<?php echo $Ayar['ayar_mkadi'] ?>" placeholder="Buraya mail adresinizi giriniz." required="required" type="text">
                         </div>
                       </div>
                         <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="ayar_msifre">Mail Adresi Şifresi<span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input id="ayar_msifre" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_msifre" placeholder="Buraya mail adresi şifrenizi giriniz." required="required" type="text">
+                          <input id="ayar_msifre" class="form-control col-md-7 col-xs-12" data-validate-length-range="6" data-validate-words="2" name="ayar_msifre"value="<?php echo $Ayar['ayar_msifre'] ?>" placeholder="Buraya mail adresi şifrenizi giriniz." required="required" type="text">
                         </div>
                       </div>
 
